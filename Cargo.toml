@@ -1,0 +1,13 @@
+[package]
+name = "rustconcurrency"
+version = "0.1.0"
+authors = ["Amaan Mahammad <60258136+amahammad132@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aovec = "1.1.0"
+crossbeam = "0.7.3"
+tokio = "0.2.21"
+rayon = "1.3.1"
